@@ -6,7 +6,6 @@ public class Device {
     private String description;
 
     Device(String address, String price, String devices) {
-
         this.name = name;
         this.price = price;
         this.quantity = quantity;
