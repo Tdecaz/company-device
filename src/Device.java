@@ -1,22 +1,33 @@
 public class Device {
 
-private String name;
+    private String name;
+    private String price;
+    private String quantity;
+    private String description;
 
-    private String address;
-    private String productionType;
-    private String devices;
+    Device(String address, String price, String devices) {
 
-    Device (String address, String productionType, String devices){
-
-        this.address = address;
-        this.productionType = productionType;
-        this.devices = devices;
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+        this.description = description;
     }
 
-    public String getaddress() { return address; }
-    public String productionType() { return productionType; }
-    public String devices() { return devices; }
+    public String getName() {
+        return name;
+    }
 
+    public String getPrice() {
+        return price;
+    }
+
+    public String getQuantity() {
+        return quantity;
+    }
+
+    public String getDescription() {
+        return description;
+    }
 }
 
 
